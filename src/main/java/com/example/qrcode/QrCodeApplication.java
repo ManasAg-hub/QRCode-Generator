@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class QrCodeApplication {
 
     public static void main(String[] args) {
+        System.out.println("The application is running");
         SpringApplication.run(QrCodeApplication.class, args);
     }
 
